@@ -1,0 +1,74 @@
+.page {
+  background: #E5E5E5;
+}
+
+.container {
+  max-width: 1420px;
+  min-width: 320px;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+
+.container__header {
+  padding: 0 157px;
+}
+
+.container__main {
+  padding: 0 170px;
+}
+
+.container__footer {
+  padding: 0 157px;
+}
+
+.header {
+  background: #222222;
+  border-radius: 20px;
+}
+
+.header__items-wrapper {
+  display: grid;
+  grid-template-row: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.header__title {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 69px;
+  color: #FFFFFF;
+  padding-top: 60px;
+  padding-bottom: 28px;
+  margin: 0;
+  margin-block: 0;
+  margin-inline: 0;
+}
+
+.header__subtitle {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 26px;
+  color: rgba(255, 255, 255, 0.7);
+  margin: 0;
+  margin-block: 0;
+  margin-inline: 0;
+}
+
+.header__button {
+  background: #FFFFFF;
+  border-radius: 8px;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 15px 75px;
+  color: #222222;
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+}/*# sourceMappingURL=styles.css.map */
